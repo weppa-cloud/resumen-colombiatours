@@ -25,7 +25,7 @@ window.addEventListener("message", function (event) {
     document.getElementById('resumen').style.display = 'none';
 
     // Enviar los datos a n8n y esperar la respuesta
-    fetch('https://n8n.weppa.co/webhook-test/resumen-aplication-colombiatours', {
+    fetch('https://n8n.weppa.co/webhook/resumen-aplication-colombiatours', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
